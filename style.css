@@ -1,6 +1,6 @@
 :root{
-  --bg:#FAEBD7;
-  --card:#A52A2A;
+  --bg:#f5b8f5;
+  --card:#ffff;
   --accent:#0b5cff;
   --text:#222;
 }
@@ -38,7 +38,7 @@ body{
 .tags{margin-bottom:12px}
 .tag{display:inline-block;background:#eef3ff;color:var(--accent);padding:6px 8px;border-radius:6px;margin-right:6px;font-size:13px}
 .skill-list{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin:0}
-.skill-list li{background:#FAEBD7;border:1px solid #eee;padding:8px 10px;border-radius:6px}
+.skill-list li{background:#f5b8f5;border:1px solid #eee;padding:8px 10px;border-radius:6px}
 .footer{text-align:center;color:#666;font-size:14px;margin-top:8px}
 
 @media (max-width:560px){
