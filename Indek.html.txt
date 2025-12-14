@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>My Portfolio</h1>
+        <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://via.placeholder.com/150" alt="Foto Profil">
+        <h2>Halo, Saya <span id="name">Nama Anda</span></h2>
+        <p>Web Developer | Mahasiswa | Programmer</p>
+        <button onclick="showMessage()">Klik Saya</button>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah seseorang yang tertarik di bidang teknologi, khususnya
+            pengembangan web. Saya senang belajar hal baru dan membuat website.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skill</h2>
+        <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Basic PHP</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: example@email.com</p>
+        <p>Instagram: @username</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Portfolio Saya</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
