@@ -17,11 +17,31 @@ body{
 .topnav{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
 .topnav .links a{margin-left:12px;color:var(--accent);text-decoration:none}
 .site{display:flex;gap:16px;align-items:center;margin-bottom:16px}
-.avatar{width:96px;height:96px;border-radius:8px;object-fit:cover}
-.card{background:var(--card);padding:18px;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,0.06);margin-bottom:12px}
+
+/* Avatar styles: round, fixed size, cover, border + shadow */
+.avatar{
+  width:96px;
+  height:96px;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid rgba(11,92,255,0.12);
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card{
+  background:var(--card);
+  padding:18px;
+  border-radius:8px;
+  box-shadow:0 1px 6px rgba(0,0,0,0.06);
+  margin-bottom:12px;
+}
 .tags{margin-bottom:12px}
 .tag{display:inline-block;background:#eef3ff;color:var(--accent);padding:6px 8px;border-radius:6px;margin-right:6px;font-size:13px}
 .skill-list{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin:0}
 .skill-list li{background:#fff;border:1px solid #eee;padding:8px 10px;border-radius:6px}
 .footer{text-align:center;color:#666;font-size:14px;margin-top:8px}
-@media (max-width:560px){ .site{flex-direction:column;align-items:flex-start} .avatar{width:72px;height:72px} }
+
+@media (max-width:560px){
+  .site{flex-direction:column;align-items:flex-start}
+  .avatar{width:72px;height:72px}
+}
