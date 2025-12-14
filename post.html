@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Posting: Tentang Saya — Portfolio</title>
+  <meta name="author" content="Nama Anda" />
+  <meta name="description" content="Perkenalan singkat tentang saya — web developer yang suka belajar dan membuat website." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="topnav">
+      <div><strong>My Portfolio</strong></div>
+      <div class="links">
+        <a href="#post">Posting</a>
+        <a href="#skills">Skill</a>
+        <a href="#contact">Kontak</a>
+      </div>
+    </nav>
+
+    <header class="site" aria-label="Info penulis">
+      <img class="avatar" src="https://via.placeholder.com/150" alt="Foto profil Nama Anda">
+      <div class="meta">
+        <h1>Halo, Saya <span id="name">Nama Anda</span></h1>
+        <div class="byline">Web Developer • Mahasiswa • Programmer</div>
+        <div class="byline">Dipublikasikan: 2025-12-14</div>
+      </div>
+    </header>
+
+    <article id="post" class="card" aria-labelledby="post-title">
+      <h2 id="post-title">Perkenalan: Mengapa Saya Menyukai Pengembangan Web</h2>
+      <div class="tags" aria-hidden="true">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">PHP</span>
+      </div>
+      <p>
+        Saya adalah seseorang yang tertarik di bidang teknologi, khususnya pengembangan web.
+        Saya senang belajar hal baru dan membuat website. Di tulisan singkat ini saya ingin
+        berbagi sedikit tentang latar belakang, pendekatan saya saat belajar, dan bagaimana saya
+        membangun proyek sederhana.
+      </p>
+
+      <h3>Latarnya Singkat</h3>
+      <p>
+        Dari awal saya tertarik pada desain antarmuka dan logika pemrograman. Web development
+        memberikan kombinasi keduanya: bisa membuat tampilan yang menarik sekaligus
+        menulis logika agar aplikasi berjalan sesuai tujuan.
+      </p>
+
+      <h3>Cara Saya Belajar</h3>
+      <ul>
+        <li>Mulai dari dasar (HTML & CSS) untuk memahami struktur dan tampilan.</li>
+        <li>Tambahkan JavaScript untuk interaksi frontend.</li>
+        <li>Pelajari dasar backend (mis. PHP) untuk mengerti alur data dan penyimpanan.</li>
+        <li>Mencoba proyek kecil untuk menerapkan pengetahuan.</li>
+      </ul>
+
+      <h3>Apa yang Sedang Saya Kerjakan</h3>
+      <p>
+        Saat ini saya fokus membuat beberapa portofolio kecil dan eksperimen UI. Saya juga
+        terus mengasah skill problem solving dan memahami arsitektur sederhana aplikasi web.
+      </p>
+
+      <p><strong>Terima kasih sudah membaca —</strong> jika ada yang ingin berdiskusi atau kerja
+      bareng, kontak saya ada di bawah.</p>
+    </article>
+
+    <section id="skills" class="card" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skill</h2>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Basic PHP</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card" aria-labelledby="contact-title" style="margin-top:16px;">
+      <h2 id="contact-title">Kontak</h2>
+      <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/username" target="_blank" rel="noopener">@username</a></p>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Portfolio Saya — dibuat dengan ❤️</p>
+    </footer>
+  </div>
+
+  <script>
+    // Contoh interaksi ringan: tombol untuk mengubah nama di header (opsional)
+    function showMessage(){
+      const nameEl = document.getElementById('name');
+      alert('Halo, ' + (nameEl ? nameEl.textContent : 'Pengunjung') + '! Terima kasih sudah mampir.');
+    }
+    // Jika kamu ingin memicu showMessage, panggil di console: showMessage()
+  </script>
+</body>
+</html>
