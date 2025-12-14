@@ -38,7 +38,7 @@ body{
 .tags{margin-bottom:12px}
 .tag{display:inline-block;background:#eef3ff;color:var(--accent);padding:6px 8px;border-radius:6px;margin-right:6px;font-size:13px}
 .skill-list{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0;margin:0}
-.skill-list li{background:#fff;border:1px solid #eee;padding:8px 10px;border-radius:6px}
+.skill-list li{background:#f7f7f9;border:1px solid #eee;padding:8px 10px;border-radius:6px}
 .footer{text-align:center;color:#666;font-size:14px;margin-top:8px}
 
 @media (max-width:560px){
